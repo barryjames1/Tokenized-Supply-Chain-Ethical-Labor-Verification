@@ -9,6 +9,17 @@ requirements = []
 path = 'contracts/audit-verification.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.certification]
+path = 'contracts/certification.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.labor-standards]
+path = 'contracts/labor-standards.clar'
+clarity_version = 2
+epoch = 2.5
+
 [repl.analysis]
 passes = ['check_checker']
 
